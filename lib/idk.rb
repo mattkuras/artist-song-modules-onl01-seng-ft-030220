@@ -4,4 +4,14 @@ module Findable
     self.all.detect{|a| a.name == name}
   
 end
+module Memorable 
 
+   def reset_all
+     self.all.clear
+   end
+
+   def count
+     self.all.count
+   end
+
+end 
